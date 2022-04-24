@@ -5,13 +5,9 @@
 
 body {
     height: 100vh;
-}
-
-.cards {
-    height: 100px !important;
-    border: 1px solid black;
+    background-color: #E6BA95;
 }
 
 .col {
-    width: 100px;
+    height: 100px;
 }
