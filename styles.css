@@ -24,10 +24,12 @@ body {
 }
 
 .play-btn {
-    border: 1px solid #E5EFC1;
-    color: #E5EFC1;
+    background-color: #E5EFC1;
+    color: black;
+    width: 150px;
 }
 .play-btn:hover {
-    background-color: #E5EFC1;
+    border: 1px solid #e7f4b5;
+    background-color: #e7f4b5;
     color: #557B83;
 }
