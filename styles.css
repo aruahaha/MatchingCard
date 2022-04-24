@@ -1,0 +1,17 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    height: 100vh;
+}
+
+.cards {
+    height: 100px !important;
+    border: 1px solid black;
+}
+
+.col {
+    width: 100px;
+}
