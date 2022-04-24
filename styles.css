@@ -7,6 +7,7 @@
 body {
     height: 100vh;
     background-color: #557B83;
+    font-family: 'Josefin Sans', sans-serif;
 }
 
 .col {
@@ -24,12 +25,6 @@ body {
 }
 
 .play-btn {
-    background-color: #E5EFC1;
-    color: black;
-    width: 150px;
-}
-.play-btn:hover {
-    border: 1px solid #e7f4b5;
-    background-color: #e7f4b5;
     color: #557B83;
+    width: 290px;
 }
