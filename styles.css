@@ -17,6 +17,7 @@ body {
 .play-section {
     position: absolute;
     z-index: 99999;
+    bottom: 150px;
 }
 
 .container {
@@ -25,6 +26,8 @@ body {
 }
 
 .play-btn {
+    /* position: absolute; */
     color: #557B83;
     width: 290px;
+    /* left: 105px; */
 }
