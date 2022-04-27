@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    overflow: hidden;
 }
 
 body {
@@ -18,11 +19,13 @@ body {
     position: absolute;
     z-index: 99999;
     bottom: 150px;
+    transition: opacity 0.5s ease;
 }
 
 .container {
-    opacity: 0;
     pointer-events: none;
+    margin-top: 60px;
+    transition: opacity 0.5s ease 0.5s;
 }
 
 .play-btn {
@@ -36,4 +39,14 @@ body {
    .play-heading{
        text-align: center;
    } 
+}
+
+div.fadeOut {
+    opacity: 0;
+    pointer-events: none;
+}
+
+div.fadeIn {
+    opacity: 1;
+    pointer-events: all;
 }
