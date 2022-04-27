@@ -31,3 +31,9 @@ body {
     width: 290px;
     /* left: 105px; */
 }
+
+@media (max-width: 600px) {
+   .play-heading{
+       text-align: center;
+   } 
+}
