@@ -7,7 +7,7 @@
 
 body {
     height: 100vh;
-    background-color: #557B83;
+    background-color: #A0BCC2;
     font-family: 'Josefin Sans', sans-serif;
 }
 
@@ -30,7 +30,7 @@ body {
 
 .play-btn {
     /* position: absolute; */
-    color: #557B83;
+    color: #A0BCC2;
     width: 290px;
     /* left: 105px; */
 }
