@@ -35,9 +35,14 @@ body {
 }
 
 @media (max-width: 600px) {
-   .play-heading{
-       text-align: center;
-   } 
+    .play-heading {
+        text-align: center;
+    }
+
+    img {
+        height: 50px !important;
+        width: 50px !important;
+    }
 }
 
 div.fadeOut {
@@ -59,6 +64,6 @@ img {
     padding: 10px 0;
 }
 
-.row{
+.row {
     padding: 24px;
 }
