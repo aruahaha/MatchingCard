@@ -40,6 +40,11 @@ body {
         width: 80px !important;
         /* padding-right: 10px; */
     }
+
+    .row {
+        padding-top: 130px !important;
+        padding-bottom: 55px;
+    }
 }
 
 div.fadeOut {
@@ -64,4 +69,8 @@ img {
 .row {
     padding-top: 55px;
     padding-bottom: 55px;
+}
+
+.col-lg-2 {
+    padding: 0;
 }
