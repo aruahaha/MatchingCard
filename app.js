@@ -9,8 +9,8 @@ playBtn.onclick = function () {
 }
 
 //shuffling cards
+var images = document.querySelectorAll(".no");
 var cards = document.querySelectorAll(".cards");
-var images = document.querySelectorAll(".img");
 
 const imgArr = [
     "images/batman.png",
@@ -57,5 +57,7 @@ function generateUniqueRandom(maxNr) {
 images.forEach(image => {
     var randomNum = generateUniqueRandom(15.5);
     image.src = imgArr[randomNum];
+    image.onclick = function() {
+        image.classList.replace("blank", "img")
+    }
 });
-
