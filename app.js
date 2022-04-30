@@ -55,7 +55,7 @@ function generateUniqueRandom(maxNr) {
 }
 
 images.forEach(image => {
-    var randomNum = generateUniqueRandom(16);
+    var randomNum = generateUniqueRandom(15.5);
     image.src = imgArr[randomNum];
 });
 
