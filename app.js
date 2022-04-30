@@ -61,3 +61,23 @@ images.forEach(image => {
         image.classList.replace("blank", "img")
     }
 });
+
+
+// LOGIKKKKK
+
+// var img1 = document.getElementById("1");
+// var img2 = document.getElementById("2");
+// var img3 = document.getElementById("3");
+// var img4 = document.getElementById("4");
+// var img5 = document.getElementById("5");
+// var img6 = document.getElementById("6");
+// var img7 = document.getElementById("7");
+// var img8 = document.getElementById("8");
+// var img9 = document.getElementById("9");
+// var img10 = document.getElementById("10");
+// var img11 = document.getElementById("11");
+// var img12 = document.getElementById("12");
+// var img13 = document.getElementById("13");
+// var img14 = document.getElementById("14");
+// var img15 = document.getElementById("15");
+// var img16 = document.getElementById("16");
