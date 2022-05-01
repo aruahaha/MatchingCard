@@ -111,24 +111,3 @@ var img13 = document.getElementById("13");
 var img14 = document.getElementById("14");
 var img15 = document.getElementById("15");
 var img16 = document.getElementById("16");
-
-if (
-    img1.classList.contains("checked") &&
-    img2.classList.contains("checked") &&
-    img3.classList.contains("checked") &&
-    img4.classList.contains("checked") &&
-    img5.classList.contains("checked") &&
-    img6.classList.contains("checked") &&
-    img7.classList.contains("checked") &&
-    img8.classList.contains("checked") &&
-    img9.classList.contains("checked") &&
-    img10.classList.contains("checked") &&
-    img11.classList.contains("checked") &&
-    img12.classList.contains("checked") &&
-    img13.classList.contains("checked") &&
-    img14.classList.contains("checked") &&
-    img15.classList.contains("checked") &&
-    img16.classList.contains("checked")
-) {
-    console.log("OK");
-}
