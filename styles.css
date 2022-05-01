@@ -80,4 +80,5 @@ img {
 .blank {
     background-color: #cfe8df;
     content: url(images/question.png);
+    cursor: pointer;
 }
