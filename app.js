@@ -86,7 +86,7 @@ images.forEach(image => {
                     incorrectCard[0].classList.remove("img");
                     incorrectCard[1].classList.add("blank");
                     incorrectCard[1].classList.remove("img");
-                }, 800)
+                }, 500)
             }
         }
     }
