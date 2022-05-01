@@ -40,25 +40,55 @@ function generateUniqueRandom(maxNr) {
     //Coerce to number by boxing
     random = Number(random);
 
-    if(!haveIt.includes(random)) {
+    if (!haveIt.includes(random)) {
         haveIt.push(random);
         return random;
     } else {
-        if(haveIt.length < maxNr) {
-          //Recursively generate number
-         return  generateUniqueRandom(maxNr);
+        if (haveIt.length < maxNr) {
+            //Recursively generate number
+            return generateUniqueRandom(maxNr);
         } else {
-          console.log('No more numbers available.')
-          return false;
+            console.log('No more numbers available.')
+            return false;
         }
     }
 }
 
+let counter = 0;
+let firstCard = "";
+let secondCard = "";
+
 images.forEach(image => {
     var randomNum = generateUniqueRandom(15.5);
     image.src = imgArr[randomNum];
-    image.onclick = function() {
-        image.classList.replace("blank", "img")
+    image.onclick = function () {
+        image.classList.replace("blank", "img");
+
+        if (counter === 0) {
+            firstCard = image.src;
+            counter++;
+        } else {
+            secondCard = image.src;
+            counter = 0;
+
+            if (firstCard === secondCard) {
+                const correctCard = document.querySelectorAll(".img");
+
+                correctCard[0].classList.add("checked");
+                correctCard[0].classList.remove("img");
+                correctCard[1].classList.add("checked");
+                correctCard[1].classList.remove("img");
+            } else {
+                const incorrectCard = document.querySelectorAll(".img");
+
+                setTimeout(() => {
+                    incorrectCard[0].classList.add("blank");
+                    incorrectCard[0].classList.remove("img");
+                    incorrectCard[1].classList.add("blank");
+                    incorrectCard[1].classList.remove("img");
+                }, 800)
+            }
+        }
     }
 });
 

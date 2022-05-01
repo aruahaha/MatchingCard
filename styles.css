@@ -75,7 +75,9 @@ img {
     padding: 0;
 }
 
-
+.checked {
+    background-color: blue;
+}
 
 .blank {
     background-color: #cfe8df;
