@@ -68,8 +68,13 @@ images.forEach(image => {
             firstCard = image.src;
             counter++;
         } else {
-            secondCard = image.src;
-            counter = 0;
+
+            if (image.src === firstCard) {
+                PASS;
+            } else {
+                secondCard = image.src;
+                counter = 0;
+            }
 
             if (firstCard === secondCard) {
                 const correctCard = document.querySelectorAll(".img");
@@ -111,3 +116,5 @@ images.forEach(image => {
 // var img14 = document.getElementById("14");
 // var img15 = document.getElementById("15");
 // var img16 = document.getElementById("16");
+
+// if ()
