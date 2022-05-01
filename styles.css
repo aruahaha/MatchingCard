@@ -84,3 +84,7 @@ img {
     content: url(images/question.png);
     cursor: pointer;
 }
+
+.img {
+    pointer-events: none;
+}
